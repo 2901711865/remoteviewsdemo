@@ -85,7 +85,7 @@ public class DownloadActivity extends BaseActivity {
         downloadReceiver=new DownloadReceiver(broadcastListener);
         IntentFilter intentFilter=new IntentFilter();
         intentFilter.addAction(DownloadReceiver.DOWNLOADRECEIVER);
-        registerReceiver(downloadReceiver,intentFilter);
+        registerReceiver(downloadReceiver,intentFilter);//注册广播接收器
     }
 
     private void showNotification(int progress,boolean paused){
