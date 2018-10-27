@@ -1,6 +1,6 @@
 # remoteviewsdemo  
     
-remoteviews remoteviewsdemo remoteviewdemo自定义通知，兼容android8.0  
+remoteviews remoteviewsdemo remoteviewdemo自定义通知，适配android8.0  
   
   
 可以在通知栏控制下载任务的继续和暂停 
