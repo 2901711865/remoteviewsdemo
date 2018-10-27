@@ -15,7 +15,7 @@ import okhttp3.Response;
 
 public class DownloadTask extends AsyncTask<String,Integer,Integer> {
     public static final String directoryPath=Environment.getExternalStorageDirectory()+
-            File.separator+"00downloadPath";
+            File.separator+"downloadPath";
     private DownloadListener mListener;
     private String mUrl,fileName;
     private static boolean isPaused=false;
